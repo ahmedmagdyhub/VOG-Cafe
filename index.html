@@ -1,0 +1,442 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VOG Café - A premium coffee experience by Atwan Company">
+    <meta name="theme-color" content="#05080e">
+
+    <title>VOG Café | A Brand by Atwan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+    <div class="loader" id="loader">
+        <h1>V<span>O</span>G.</h1>
+        <p>BY ATWAN</p>
+    </div>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">V<span>O</span>G.</a>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Experience</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <a href="#menu" class="nav-btn">Explore Menu</a>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content reveal">
+                <div class="subtitle">A New Way To Enjoy Coffee</div>
+
+                <h1>V<span>O</span>G</h1>
+
+                <h2>More Than Just A Coffee.</h2>
+
+                <p>
+                    Discover a world of exceptional coffee,
+                    refreshing drinks and unforgettable moments.
+                    Welcome to the VOG experience.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn">Explore Our Menu</a>
+                    <a href="#about" class="btn btn-outline">Discover VOG</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-bottom">
+            <span></span>
+            DISCOVER THE VOG EXPERIENCE
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+
+                <div class="about-image reveal">
+                    <img
+                        src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1000&q=85"
+                        alt="VOG Cafe Interior">
+                </div>
+
+                <div class="about-text reveal">
+                    <div class="subtitle">Our Story</div>
+
+                    <h2>Welcome To <span>VOG Café</span></h2>
+
+                    <p>
+                        VOG is more than just a café.
+                        It's a place where great coffee,
+                        relaxing vibes and beautiful moments come together.
+                    </p>
+
+                    <p>
+                        Every detail is designed to create
+                        a unique experience, from our carefully
+                        selected drinks to the atmosphere that
+                        makes every visit special.
+                    </p>
+
+                    <div class="company">
+                        <strong>POWERED BY ATWAN</strong>
+
+                        <p>
+                            VOG Café is proudly part of Atwan Company,
+                            bringing a distinctive coffee experience
+                            through quality, passion and creativity.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features" id="features">
+        <div class="container">
+
+            <div class="section-title reveal">
+                <span>WHY VOG</span>
+                <h2>More Than A <b>Drink</b></h2>
+                <p>A unique experience in every visit.</p>
+            </div>
+
+            <div class="features-grid">
+
+                <div class="feature-card reveal">
+                    <div class="feature-icon">☕</div>
+                    <h3>Quality Coffee</h3>
+                    <p>
+                        Carefully selected coffee and
+                        refreshing drinks prepared with passion.
+                    </p>
+                </div>
+
+                <div class="feature-card reveal">
+                    <div class="feature-icon">✦</div>
+                    <h3>Unique Atmosphere</h3>
+                    <p>
+                        A welcoming atmosphere designed
+                        for relaxing and enjoying your moments.
+                    </p>
+                </div>
+
+                <div class="feature-card reveal">
+                    <div class="feature-icon">♡</div>
+                    <h3>Special Moments</h3>
+                    <p>
+                        Every visit is an opportunity
+                        to enjoy something special.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- DRINKS MENU -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+
+            <div class="section-title reveal">
+                <span>MADE FOR YOUR MOOD</span>
+                <h2>Our Signature <b>Menu</b></h2>
+                <p>Explore our carefully selected drinks.</p>
+            </div>
+
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">All Drinks</button>
+                <button class="filter-btn" data-filter="hot">Hot Drinks</button>
+                <button class="filter-btn" data-filter="cold">Cold Drinks</button>
+                <button class="filter-btn" data-filter="signature">Signature</button>
+            </div>
+
+            <div class="menu-grid">
+
+                <div class="menu-card reveal" data-category="hot">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=85" alt="Espresso">
+                    <div class="menu-details">
+                        <span>HOT COFFEE</span>
+                        <h3>Espresso</h3>
+                        <p>Rich, bold and perfectly brewed coffee.</p>
+                        <div class="menu-bottom">
+                            <strong>Ask for Price</strong>
+                            <span>01</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card reveal" data-category="hot">
+                    <img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=800&q=85" alt="Cappuccino">
+                    <div class="menu-details">
+                        <span>HOT COFFEE</span>
+                        <h3>Cappuccino</h3>
+                        <p>Espresso with silky steamed milk foam.</p>
+                        <div class="menu-bottom">
+                            <strong>Ask for Price</strong>
+                            <span>02</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card reveal" data-category="cold">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85" alt="Iced Coffee">
+                    <div class="menu-details">
+                        <span>COLD COFFEE</span>
+                        <h3>Iced Coffee</h3>
+                        <p>A refreshing coffee experience served cold.</p>
+                        <div class="menu-bottom">
+                            <strong>Ask for Price</strong>
+                            <span>03</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card reveal" data-category="cold">
+                    <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=85" alt="Iced Latte">
+                    <div class="menu-details">
+                        <span>COLD COFFEE</span>
+                        <h3>Iced Latte</h3>
+                        <p>Espresso blended with chilled fresh milk.</p>
+                        <div class="menu-bottom">
+                            <strong>Ask for Price</strong>
+                            <span>04</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card reveal" data-category="signature">
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=85" alt="Signature Latte">
+                    <div class="menu-details">
+                        <span>VOG SPECIAL</span>
+                        <h3>Signature Latte</h3>
+                        <p>A special creation made for coffee lovers.</p>
+                        <div class="menu-bottom">
+                            <strong>Ask for Price</strong>
+                            <span>05</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card reveal" data-category="signature">
+                    <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=85" alt="Milkshake">
+                    <div class="menu-details">
+                        <span>VOG SPECIAL</span>
+                        <h3>Milkshake</h3>
+                        <p>Thick, creamy and full of delicious flavor.</p>
+                        <div class="menu-bottom">
+                            <strong>Ask for Price</strong>
+                            <span>06</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card reveal" data-category="cold">
+                    <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=85" alt="Fresh Juice">
+                    <div class="menu-details">
+                        <span>FRESH DRINKS</span>
+                        <h3>Fresh Juice</h3>
+                        <p>Refreshing flavors made for your perfect moment.</p>
+                        <div class="menu-bottom">
+                            <strong>Ask for Price</strong>
+                            <span>07</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card reveal" data-category="signature">
+                    <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=85" alt="Special Drinks">
+                    <div class="menu-details">
+                        <span>VOG SPECIAL</span>
+                        <h3>Special Drinks</h3>
+                        <p>Discover refreshing flavors and unique combinations.</p>
+                        <div class="menu-bottom">
+                            <strong>Ask for Price</strong>
+                            <span>08</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card reveal" data-category="hot">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=800&q=85" alt="Hot Latte">
+                    <div class="menu-details">
+                        <span>HOT COFFEE</span>
+                        <h3>Hot Latte</h3>
+                        <p>Smooth espresso combined with steamed milk.</p>
+                        <div class="menu-bottom">
+                            <strong>Ask for Price</strong>
+                            <span>09</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience">
+        <div class="container reveal">
+            <div class="subtitle">THE VOG EXPERIENCE</div>
+
+            <h2>Enjoy Every <span>Moment.</span></h2>
+
+            <p>
+                Great drinks, beautiful atmosphere and unforgettable memories.
+                VOG is your destination to relax, connect and enjoy the little things.
+            </p>
+
+            <br><br>
+
+            <a href="#contact" class="btn">Visit VOG</a>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+
+            <div class="section-title reveal">
+                <span>OUR ATMOSPHERE</span>
+                <h2>VOG <b>Gallery</b></h2>
+                <p>A glimpse into the VOG world.</p>
+            </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=800&q=85" alt="Cafe Interior">
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=85" alt="Coffee">
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=85" alt="Cafe Atmosphere">
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=85" alt="Coffee Making">
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?auto=format&fit=crop&w=800&q=85" alt="Cafe Design">
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=85" alt="Coffee Drinks">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="container">
+
+            <div class="section-title reveal">
+                <span>GET IN TOUCH</span>
+                <h2>Visit <b>VOG Café</b></h2>
+            </div>
+
+            <p>
+                We'd love to welcome you.
+                Come and enjoy your favorite drinks in a place
+                designed for great moments.
+            </p>
+
+            <div class="contact-info">
+
+                <div class="contact-item reveal">
+                    <h3>LOCATION</h3>
+                    <span>Coming Soon</span>
+                </div>
+
+                <div class="contact-item reveal">
+                    <h3>PHONE</h3>
+                    <span>Coming Soon</span>
+                </div>
+
+                <div class="contact-item reveal">
+                    <h3>WORKING HOURS</h3>
+                    <span>Coming Soon</span>
+                </div>
+
+            </div>
+
+            <a href="#home" class="btn">Back To Home ↑</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+
+            <div class="footer-logo">V<span>O</span>G.</div>
+
+            <div class="footer-brand">A BRAND BY ATWAN COMPANY</div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="copyright">
+                © 2026 VOG Café. All Rights Reserved.
+                <br><br>
+                Powered by <strong>ATWAN COMPANY</strong>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- WHATSAPP -->
+    <a
+        href="https://wa.me/201000000000"
+        class="whatsapp-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contact VOG on WhatsApp">
+        W
+    </a>
+
+    <!-- BACK TO TOP -->
+    <button class="top-btn" id="topBtn" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
